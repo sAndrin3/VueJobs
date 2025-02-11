@@ -1,8 +1,8 @@
 <script setup>
-import PulseLoader from "Vue-spinner/src/PulseLoader.vue";
+import PulseLoader from "vue-spinner/src/PulseLoader.vue";
 import {reactive, onMounted} from "vue";
 import {useRoute, RouterLink, useRouter } from "vue-router";
-import Toast, {useToast} from "vue-toastification";
+import {useToast} from "vue-toastification";
 import axios from "axios";
 import BackButton from "@/components/BackButton.vue";
 
